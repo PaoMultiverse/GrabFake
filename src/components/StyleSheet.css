@@ -204,3 +204,128 @@ span{
 #a:hover{
     color: #00B14F;
 }
+
+
+.container-food-order{
+    margin-top: 40px;
+    position: relative;
+    height: 100%;
+}
+.container-food-detail{
+    display: flex;
+    padding-block: 10px;
+    border-block:solid 1px #b3b3b3;
+}
+.image-box{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.img-in-box{
+    width: 100%;
+    height: 100%;
+}
+.note-order{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.note-order> div > p > strong{
+    font-size: medium;
+}
+.note{
+    padding: 5px 3px;
+    width: 100%;
+    border-radius: 3px;
+    border: solid 1px #b3b3b3;
+}
+.calculate{
+    position: absolute;
+    bottom: 0;
+}
+.up-down-qualtity{
+    width: 50%;
+    display: flex;
+}
+.up-down-qualtity > div{
+    width: 100%;
+    height: fit-content;
+    font-size: large;
+    border-radius: 3px;
+    border: solid 1px #b3b3b3;
+    padding: 3px;
+}
+.btn-Order{
+    width: 100%;
+    height: 30px;
+}
+.space{
+    height: 100px;
+}
+.search-food-bar{
+    width: 100%;
+}
+#search-bar-input{
+    width: 100%;
+    min-height: 50px;
+    padding-left: 70px; 
+    box-sizing: border-box;
+    background-color: #e6e6e6; 
+    background-image: url("../assets/icon-search.png"); 
+    background-repeat: no-repeat; 
+    background-position: 10px center;
+    background-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+.container-option{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px ;
+    margin-bottom: 40px;
+}
+.option{
+    width: 18%;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.option:hover{
+    outline: solid 3px #00B14F;
+}
+#imgOption{
+    width: 100%;
+
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+.imgText{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+.search-food{
+    margin-bottom: 20px;
+    border-bottom: solid 10px black;
+    width:100%;
+    height:max-content;
+}

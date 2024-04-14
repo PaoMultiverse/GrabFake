@@ -108,7 +108,7 @@ function CarourelPromo(){
             </Carousel>
           </div>
           <div className='show-all-promo container'>
-            <Link id='a' to='/all-promotions'><strong id>See all promotions</strong></Link>
+            <Link id='a' to='/Restaurant'><strong id>See all promotions</strong></Link>
           </div>
         </>
       )

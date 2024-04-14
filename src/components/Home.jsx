@@ -5,6 +5,7 @@ import PopularQuestions from "./PopularQuestions";
 import BackgroundHeader from "./BackgroundHeader";
 import AddressBox from "./AddressBox";
 import PromoInWhere from "./PromoInWhere";
+import Order from "./Order";
 
 function Home(){
     return(
@@ -16,6 +17,7 @@ function Home(){
             <CarourelPromo/>
             <Category/>
             <PopularQuestions/>
+            <Order/>
         </div>
         </>
     )
