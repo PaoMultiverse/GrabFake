@@ -7,12 +7,13 @@ import AddressBox from "./AddressBox";
 import PromoInWhere from "./PromoInWhere";
 import Order from "./Order";
 
+import { useState } from "react";
+
 function Home(){
     return(
         <>
         <div>
             <BackgroundHeader/>
-            <AddressBox/>
             <PromoInWhere/>
             <CarourelPromo/>
             <Category/>

@@ -1,7 +1,8 @@
-import { Drawer } from "antd";
+import { Drawer, Checkbox } from "antd";
 import "./StyleSheet.css"
 import food1 from "../assets/promoFood/food1.jpg"
 import { useState } from "react";
+
 function Order(){
     var price = 90000
     const [quannity,setQuanlity] = useState('0') 
@@ -50,16 +51,6 @@ function Order(){
                                     <input className="note" type="text" placeholder="E.g No onions please" />
                                 </div>
                             </div>
-                            {/* <div className="calculate">
-                                <div className="up-down-qualtity">
-                                    <div onclick={handleAdd}>+</div>
-                                    <div>{quanlity}</div>
-                                    <div onclick={handleSubtract}>-</div>
-                                </div>
-                                <div className="btn-Order" onChange={handleTotal}>
-                                    {total}
-                                </div>
-                            </div> */}
                         </div>
                 </Drawer>
             </div>
