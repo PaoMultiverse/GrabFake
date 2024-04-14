@@ -13,7 +13,7 @@ function App() {
     <>
       <Navbar/>
         <Routes>
-          <Route path='/' element={<HomePage/>}/>
+          <Route path='/GrabFake' element={<HomePage/>}/>
           <Route path='/Restaurant' element={<Restaurant/>}/>
           <Route path='/StoreMeal' element={<StoreMeal/>}/>
         </Routes>
