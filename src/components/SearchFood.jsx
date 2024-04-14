@@ -1,6 +1,7 @@
 
 import Option from "./Option"
 import React from "react"
+import CarourelPromo from "./CarourelPromo"
 
 function SearchFood(){
  
@@ -39,6 +40,15 @@ function SearchFood(){
                 <div className="container-option">
                     {optional}
                 </div>
+                <div className="">
+                
+                </div>
+            </div>
+            <div style={{height:"5px",backgroundColor:"#c3c3c3"}}></div>
+            <div className="container">
+            <CarourelPromo/>
+            <CarourelPromo/>
+            <CarourelPromo/>
             </div>
         </>
     )

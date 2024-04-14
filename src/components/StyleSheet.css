@@ -379,3 +379,45 @@ span{
 .container-max-footer{
     background-color: #00B14F;
 }
+.round-button {
+    position: absolute;
+    bottom: 10px; /* Điều chỉnh vị trí top theo ý muốn */
+    right: 10px; /* Điều chỉnh vị trí right theo ý muốn */
+    width: 30px; /* Chiều rộng của nút */
+    height: 30px; /* Chiều cao của nút */
+    border-radius: 50%; /* Tạo nút hình tròn */
+    background-color: #00b14f; /* Màu nền của nút */
+    color: #fff; /* Màu chữ của nút */
+    border: none; /* Xóa viền */
+    cursor: pointer; /* Biến con trỏ thành hình bàn tay khi di chuột qua nút */
+    font-size: 16px; /* Cỡ chữ */
+  }
+  .card:hover {
+    border: 3px solid #00b14f;
+  }
+  .btnQty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%; 
+  }
+  .btnMP{
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    background-color:white ;
+    color:#00a5cf;
+    width: 30px;
+    height: 30px;
+  }
+  #total{
+    background-color: #00b14f;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color:white;
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 10px ;
+    border: none;
+  }

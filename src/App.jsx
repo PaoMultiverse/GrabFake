@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import HomePage from './components/Home'
 import Restaurant from './components/Restaurant'
-
+import StoreMeal from './components/Store'
 import "./App.css"
 function App() {
 
@@ -14,7 +14,8 @@ function App() {
       <Navbar/>
         <Routes>
           <Route path='/' element={<HomePage/>}/>
-          <Route path='/Restaurant'ZZZZ element={<Restaurant/>}/>
+          <Route path='/Restaurant' element={<Restaurant/>}/>
+          <Route path='/StoreMeal' element={<StoreMeal/>}/>
         </Routes>
       <Footer/>
     </>
