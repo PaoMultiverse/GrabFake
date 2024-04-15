@@ -7,7 +7,7 @@ import { Link, useLocation } from "react-router-dom";
 function Navbar() {
     const [color, setColor] = useState(false);
     const location = useLocation();
-    const isHomePage = location.pathname === "/GrabFake";
+    const isHomePage = ((location.pathname === "/GrabFake") || (location.pathname === "/GrabFake/")) ;
 
     const changeBackground = () => {
         if (window.scrollY >= 70 && isHomePage) {
