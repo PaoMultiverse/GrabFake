@@ -13,7 +13,7 @@ function Store(){
                 <div className="container ">
                     <div className="space"></div>
                     <div className="search-food-bar">
-                        <h6><Link to="/" style={{textDecoration : "none"}}>Trang chủ</Link> &gt; <Link to="/Restaurant" style={{textDecoration : "none"}}>Nhà hàng</Link>&gt; Cơm Tấm Bốn Phương Quán</h6>
+                        <h6><Link to="/GrabFake" style={{textDecoration : "none"}}>Trang chủ</Link> &gt; <Link to="/Restaurant" style={{textDecoration : "none"}}>Nhà hàng</Link>&gt; Cơm Tấm Bốn Phương Quán</h6>
                         <h1>Cơm Tấm Bốn Phương Quán</h1>
                         <p>Cơm</p>
                         <p>

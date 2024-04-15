@@ -28,7 +28,7 @@ function Navbar() {
         <div className={`container-navbar ${!isHomePage ? "bg-white" : ""} ${color ? "shadow active" : ""}`}>
             <div className="headerContainer p-3 container-sm d-flex justify-content-between align-items-center">
                 <div className="logo-box">
-                    <Link to="/">
+                    <Link to="/GrabFake">
                         <img className="logoApp" src={isHomePage ? (color ? logo1 : logo2) : (color ? logo2 : logo1)} alt="" />
                     </Link>
                 </div>
