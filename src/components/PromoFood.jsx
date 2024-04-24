@@ -6,10 +6,11 @@ import PromoFoodList from "./PromoFoodList";
 import { Link } from "react-router-dom";
 function PromoFood(props){
     return (
-        <>
+        <><Link to="/StoreMeal" style={{textDecoration:"none"}}>
             <div className='card'>
-              
-                <img className='product--image' src={PromoFoodList[props.url]} alt="" />
+                <div className="pro-img-box">
+                    <img className='img-food' src={PromoFoodList[props.url]} alt="" />
+                </div>
                 <h4>{props.name}</h4>
                 <p>{props.type}</p>
                 <p>
@@ -17,8 +18,7 @@ function PromoFood(props){
                   <img className='icon-in-food' src={icClock} alt="icon-clock" /> {props.time}
                   <img className='icon-in-food' src={icDot} alt="icon-dot" /> {props.km}
                 </p>
-                <Link to="/StoreMeal">Click here</Link>
-            </div>
+            </div></Link>
         </>
     )
 }

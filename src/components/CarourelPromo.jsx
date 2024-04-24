@@ -3,7 +3,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import "./StyleSheet.css"
 import PromoFood from './PromoFood';
-import PromoFoodList from './PromoFoodList';
 
 function CarourelPromo(){
     const responsive = {
@@ -102,13 +101,17 @@ function CarourelPromo(){
       )
       return (
         <>
-          <div className='container mt-5 con-promo'>
-            <Carousel responsive={responsive}>
-              {foodpromo}
-            </Carousel>
-          </div>
-          <div className='show-all-promo container'>
-            <Link id='a' to='/Restaurant'><strong id>See all promotions</strong></Link>
+          <div className='container'>
+            <div className='mt-4 overflow-hidden'>
+              <div className='mt-1'>
+                <Carousel responsive={responsive} className='overflow-visible'>
+                {foodpromo}
+                </Carousel>
+              </div>
+            </div>
+            <div className='show-all-promo'>
+              <Link id='a' to='/Restaurant'><strong id>See all promotions</strong></Link>
+            </div>
           </div>
         </>
       )
